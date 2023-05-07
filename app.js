@@ -74,6 +74,7 @@ btnClear.addEventListener('click', () => {
     gridItems.forEach((gridItem) => {
         gridItem.classList.remove('active');
         gridItem.style.backgroundColor = 'transparent';
+        color = 'transparent';
     });
 
 
